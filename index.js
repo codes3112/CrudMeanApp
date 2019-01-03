@@ -7,7 +7,7 @@ const app=express();
 const routes= require('./routes/api');
 
 //connect to the database
-mongoose.connect('mongodb://test:test123@ds141641.mlab.com:41641/todogo',{useNewUrlParser:true});
+mongoose.connect('Your Db Connection String',{useNewUrlParser:true});
 mongoose.Promise=global.Promise;
 
 app.use(express.static('public'));
