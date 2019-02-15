@@ -1,5 +1,5 @@
 # CrudMeanApp
-A simple Mean Stack App
+A simple Mean Stack To-Do App
 Built on NodeJs Platform.Performs basic Create, Read,Update and Delete(CRUD) functions.Front-end in Angular Js.
 Connected to MongoDb Cloud Database(mlab.com)
 
